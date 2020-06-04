@@ -1,0 +1,31 @@
+{
+    "name": "datakrama/lapires",
+    "description": "Lapires - Laravel API Response, generalizing all response from your API server",
+    "type": "project",
+    "require": {
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Husen",
+            "email": "husenisme@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Datakrama\\Lapires\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datakrama\\Lapires\\LapiresServiceProvider"
+            ]
+        }
+    }
+}
