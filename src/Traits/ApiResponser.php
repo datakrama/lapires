@@ -28,12 +28,12 @@ trait ApiResponser {
      * @param string $message
      * @return void
      */
-	protected function errorResponse($code, $message = null)
+	protected function errorResponse($code, $message = null, $data = null)
 	{
 		return response()->json([
 			'success' => false,
 			'message' => $message,
-			'data' => null
+			'data' => $data
 		], $code);
 	}
 
