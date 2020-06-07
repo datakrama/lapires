@@ -6,7 +6,8 @@
         "illuminate/support": "^6.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0"
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^9.3@dev"
     },
     "license": "MIT",
     "authors": [
@@ -20,6 +21,16 @@
         "psr-4": {
             "Datakrama\\Lapires\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datakrama\\Lapires\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
     },
     "extra": {
         "laravel": {

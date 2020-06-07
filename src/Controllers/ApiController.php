@@ -2,7 +2,7 @@
 
 namespace Datakrama\Lapires\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Datakrama\Lapires\Traits\ApiResponser;
 
 class ApiController extends Controller
