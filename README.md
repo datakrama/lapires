@@ -2,8 +2,13 @@
 
 Lapires is simple (but useful) [Laravel](https://github.com/laravel/laravel "Laravel") package for generalizing all default response to API-friendly response. With this package, you will have a properly formatted JSON response.
 
-## Credits
-- [Laravel](https://github.com/laravel/laravel "Laravel")
-- [Orchestra Testbench](https://github.com/orchestral/testbench)
+## Requirements
+- [Laravel 6.x](https://github.com/laravel/laravel)
 
-This package is made based on [https://github.com/Cerwyn/laravel-generalizing-response](https://github.com/Cerwyn/laravel-generalizing-response).
+## Installation
+`$ composer require datakrama/lapires`
+
+## Credits
+- [Ahmad Husen](https://github.com/husenisme)
+
+This package is made by inspiration from [https://github.com/Cerwyn/laravel-generalizing-response](https://github.com/Cerwyn/laravel-generalizing-response).
