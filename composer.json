@@ -1,7 +1,7 @@
 {
     "name": "datakrama/lapires",
     "description": "Lapires - Laravel API Response, generalizing all response from your API server",
-    "type": "project",
+    "type": "library",
     "require": {
         "illuminate/support": "^6.0"
     },
