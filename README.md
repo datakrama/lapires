@@ -48,6 +48,8 @@ use Datakrama\Lapires\Traits\ApiResponser;
 
 class HomeController extends Controller
 {
+    use ApiResponser;
+    
     /**
      * Create a new controller instance.
      *
