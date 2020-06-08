@@ -1,6 +1,6 @@
 ## Lapires - Laravel API Response
 
-Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") package for generalizing all default response to API-friendly response. With this package, you will have a properly formatted JSON response. However, the response format is fixed.
+Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") package for generalizing all default response to API-friendly response. With this package, you will have a properly formatted JSON response. However, the response format is fixed, you can not change the format.
 
 ## Requirements
 - [Laravel 6.x](https://github.com/laravel/laravel)
@@ -49,7 +49,7 @@ use Datakrama\Lapires\Traits\ApiResponser;
 class HomeController extends Controller
 {
     use ApiResponser;
-    
+
     /**
      * Create a new controller instance.
      *
