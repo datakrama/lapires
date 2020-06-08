@@ -31,7 +31,7 @@ class Handler extends ExceptionHandler
                 'trace' => collect($e->getTrace())->map(function ($trace) {
                     return Arr::except($trace, ['args']);
                 })->all()
-            ]] : $this->isHttpException($e) ? ['success' => false, 'message' => $e->getMessage(), 'errors' => null] : ['success' => false, 'message' => 'Server Error', 'errors' => null];
+            ]] : ($this->isHttpException($e) ? ['success' => false, 'message' => $e->getMessage(), 'errors' => null] : ['success' => false, 'message' => 'Server Error', 'errors' => null]);
     }
 
     /**

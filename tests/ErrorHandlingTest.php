@@ -15,7 +15,9 @@ class ErrorHandlingTest extends TestCase
         $response = $this->getJson('/hellow');
         $response
             ->assertStatus(404)
-            ->assertJsonPath('original.success', false);;
+            ->assertJson([
+                'success' => false,
+            ]);
     }
 
     /** @test */
@@ -24,6 +26,8 @@ class ErrorHandlingTest extends TestCase
         $response = $this->postJson('/hello');
         $response
             ->assertStatus(405)
-            ->assertJsonPath('original.success', false);
+            ->assertJson([
+                'success' => false,
+            ]);
     }
 }

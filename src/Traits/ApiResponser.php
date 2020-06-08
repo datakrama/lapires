@@ -33,7 +33,7 @@ trait ApiResponser {
 		return response()->json([
 			'success' => false,
 			'message' => $message,
-			'errors' => $data
+			'errors' => $errors
 		], $code);
 	}
 
