@@ -7,6 +7,13 @@ Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") packag
 ## Requirements
 - [Laravel 6.x](https://github.com/laravel/laravel)
 
+## Laravel Compatibility
+
+|   Laravel                             | Package                                               |
+| ------------------------------------- | ----------------------------------------------------- |
+| [6.x](https://laravel.com/docs/6.x)   | [1.x](https://github.com/datakrama/lapires/tree/v1)   |
+
+
 ## Installation
 `$ composer require datakrama/lapires:"~1.0"`
 
