@@ -5,17 +5,18 @@
 Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") package for generalizing all default response to API-friendly response. With this package, you will have a properly formatted JSON response. However, the response format is fixed, you can not change the format.
 
 ## Requirements
-- [Laravel 6.x](https://github.com/laravel/laravel)
+- [Laravel 7.x](https://github.com/laravel/laravel)
 
 ## Laravel Compatibility
 
 |   Laravel                             | Package                                               |
 | ------------------------------------- | ----------------------------------------------------- |
 | [6.x](https://laravel.com/docs/6.x)   | [1.x](https://github.com/datakrama/lapires/tree/v1)   |
+| [7.x](https://laravel.com/docs/7.x)   | [2.x](https://github.com/datakrama/lapires/tree/v2)   |
 
 
 ## Installation
-`$ composer require datakrama/lapires:"~1.0"`
+`$ composer require datakrama/lapires:"~2.0"`
 
 ## Usages
 
