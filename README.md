@@ -8,7 +8,7 @@ Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") packag
 - [Laravel 6.x](https://github.com/laravel/laravel)
 
 ## Installation
-`$ composer require datakrama/lapires`
+`$ composer require datakrama/lapires:"~1.0"`
 
 ## Usages
 
@@ -105,7 +105,7 @@ class HomeController extends Controller
 
 Thanks to [Package Discovery](https://laravel.com/docs/6.x/packages#package-discovery), all error handling responses are handled automatically.
 
-## Credits
+## Credit
 - [Ahmad Husen](https://github.com/husenisme)
 
 This package is made because inspiration from [https://github.com/Cerwyn/laravel-generalizing-response](https://github.com/Cerwyn/laravel-generalizing-response).

@@ -3,7 +3,7 @@
     "description": "Lapires - Laravel API Response, generalizing all response from your API server",
     "type": "library",
     "require": {
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^6"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
