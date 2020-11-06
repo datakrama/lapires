@@ -23,7 +23,7 @@ class Handler extends ExceptionHandler
     {
         return config('app.debug') ? [
             'success' => false,
-            'message' => $e->getMessage(), 
+            'message' => $e->getMessage(),
             'errors' => [
                 'exception' => get_class($e),
                 'file' => $e->getFile(),
