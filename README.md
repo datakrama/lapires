@@ -17,6 +17,12 @@ Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") packag
 ## Installation
 `$ composer require datakrama/lapires:"~1.0"`
 
+## Config (Optional)
+
+If you need to disable custom exception response from this package, publish the config file, and change `exception` option to `false`.
+
+`$ php artisan vendor:publish --provider="Datakrama\Lapires\LapiresServiceProvider"`
+
 ## Usages
 
 All responses will be formatted as follows:
@@ -108,11 +114,8 @@ class HomeController extends Controller
 
 ```
 
-### Error Handling and Exception
-
-Thanks to [Package Discovery](https://laravel.com/docs/6.x/packages#package-discovery), all error handling responses are handled automatically.
-
+## Thanks
 This package is made because inspiration from [https://github.com/Cerwyn/laravel-generalizing-response](https://github.com/Cerwyn/laravel-generalizing-response).
 
-# Licence
+## Licence
 The MIT License (MIT). Please see [License File](https://github.com/datakrama/lapires/blob/master/LICENSE.md "License File") for more information.
