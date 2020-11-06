@@ -2,7 +2,8 @@
 
 namespace Datakrama\Lapires\Traits;
 
-trait ApiResponser {
+trait ApiResponser
+{
 
     /**
      * Returning success response
@@ -13,13 +14,13 @@ trait ApiResponser {
      * @return void
      */
     protected function successResponse($data = null, $message = null, $code = 200)
-	{
-		return response()->json([
-			'success' => true, 
-			'message' => $message, 
-			'data' => $data
-		], $code);
-	}
+    {
+        return response()->json([
+            'success' => true,
+            'message' => $message,
+            'data' => $data
+        ], $code);
+    }
 
     /**
      * Returning error response
@@ -28,13 +29,12 @@ trait ApiResponser {
      * @param string $message
      * @return void
      */
-	protected function errorResponse($code, $message = null, $errors = null)
-	{
-		return response()->json([
-			'success' => false,
-			'message' => $message,
-			'errors' => $errors
-		], $code);
-	}
-
+    protected function errorResponse($code, $message = null, $errors = null)
+    {
+        return response()->json([
+            'success' => false,
+            'message' => $message,
+            'errors' => $errors
+        ], $code);
+    }
 }

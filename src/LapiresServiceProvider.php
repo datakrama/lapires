@@ -8,11 +8,11 @@ use Illuminate\Support\ServiceProvider;
 
 class LapiresServiceProvider extends ServiceProvider
 {
-     /**
-     * Register any application services.
-     *
-     * @return void
-     */
+    /**
+    * Register any application services.
+    *
+    * @return void
+    */
     public function register()
     {
         $this->mergeConfigFrom(
