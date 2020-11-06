@@ -112,9 +112,6 @@ class HomeController extends Controller
 
 Thanks to [Package Discovery](https://laravel.com/docs/6.x/packages#package-discovery), all error handling responses are handled automatically.
 
-## Credit
-- [Ahmad Husen](https://github.com/husenisme)
-
 This package is made because inspiration from [https://github.com/Cerwyn/laravel-generalizing-response](https://github.com/Cerwyn/laravel-generalizing-response).
 
 # Licence

@@ -3,17 +3,18 @@
     "description": "Lapires - Laravel API Response, generalizing all response from your API server",
     "type": "library",
     "require": {
-        "illuminate/support": "^6"
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^9.3@dev"
+        "phpunit/phpunit": "^8.0|^9.0"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Ahmad Husen",
-            "email": "husenisme@gmail.com"
+            "email": "hello@husen.id"
         }
     ],
     "minimum-stability": "dev",
@@ -28,9 +29,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
+        "test": "vendor/bin/phpunit"
     },
     "extra": {
         "laravel": {
