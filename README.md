@@ -1,6 +1,6 @@
 ## Lapires - Laravel API Response
 
-![Run Tests](https://github.com/datakrama/lapires/workflows/Run%20Tests/badge.svg) [![License](https://poser.pugx.org/datakrama/lapires/license)](//packagist.org/packages/datakrama/lapires)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/datakrama/lapires/CI/v1?label=CI&style=flat-square) ![Packagist Version](https://img.shields.io/packagist/v/datakrama/lapires?style=flat-square) ![Packagist Downloads](https://img.shields.io/packagist/dm/datakrama/lapires?style=flat-square) ![Packagist License](https://img.shields.io/packagist/l/datakrama/lapires?style=flat-square)
 
 Lapires is simple [Laravel](https://github.com/laravel/laravel "Laravel") package for generalizing all default response to API-friendly response. With this package, you will have a properly formatted JSON response. However, the response format is fixed, you can not change the format.
 
